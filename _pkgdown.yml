@@ -1,5 +1,5 @@
 title: scottishdata
-destination: ../pkgdown_sites/scottishdata
+destination: docs
 
 home:
   title: Scottish Datasets for R
@@ -32,4 +32,4 @@ navbar:
         href: reference/index.html
       - icon: fa-github fa-lg
         text: "Github"
-        href: https://github.com/schochastics/networkdata
+        href: https://github.com/mrsensible/scottishdata

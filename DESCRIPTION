@@ -1,13 +1,13 @@
 Package: scottishdata
-Title: What the Package Does (One Line, Title Case)
+Title: scottishdata - Scottish Datasets for R
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Hyesop",
+           family = "Shin",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
+           email = "hyesop.shin@glasgow.ac.uk",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Description: This is a package that contains a full set of tabular and geospatial data related to Scotland.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
