@@ -1,3 +1,35 @@
+title: scottishdata
+destination: ../pkgdown_sites/scottishdata
+
+home:
+  title: Scottish Datasets for R
+  description: A great variety of Scottish datasets in df and sf format
 template:
+  opengraph:
+    image:
+      src: man/figures/logo.png
+      alt: "scottishdata - Scottish Datasets for R"
+    twitter:
+      creator: "@hyesop"
+      card: summary_large_image
   params:
-    bootswatch: cerulean
+    bootswatch: yeti
+
+navbar:
+  left:
+    - icon: fa-home
+      href: index.html
+    - text: Articles
+      menu:
+      -  text: Blog Post
+         href: http://hyesop.rbind.io
+  right:
+      - icon: fa-newspaper-o
+        text: "News"
+        href: news/index.html
+      - icon: fa-file-code-o
+        text: "Functions"
+        href: reference/index.html
+      - icon: fa-github fa-lg
+        text: "Github"
+        href: https://github.com/schochastics/networkdata
