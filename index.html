@@ -101,28 +101,36 @@
 
       </header><div class="row">
   <div class="contents col-md-9">
-<div id="scottishdata" class="section level1">
-<div class="page-header"><h1 class="hasAnchor">
-<a href="#scottishdata" class="anchor"></a>scottishdata</h1></div>
-<!-- badges: start -->
-<!-- badges: end -->
+
+<div id="scottishdata" class="section level2">
+<h2 class="hasAnchor">
+<a href="#scottishdata" class="anchor"></a>scottishdata</h2>
 <p>The goal of scottishdata is to …</p>
+</div>
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">
 <a href="#installation" class="anchor"></a>Installation</h2>
-<p>You can install the released version of scottishdata from <a href="https://CRAN.R-project.org">CRAN</a> with:</p>
+<p>Due to the nature of the package (only data, no functions), the package will not go to CRAN at any point. However, the package is available via drat (If you are looking for stable builds of the package). With drat, you can install and upgrade non-CRAN packages directly from R using the standard <code><a href="https://rdrr.io/r/utils/install.packages.html">install.packages()</a></code> and <code><a href="https://rdrr.io/r/utils/update.packages.html">update.packages()</a></code> functions.</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html">install.packages</a></span><span class="op">(</span><span class="st">"scottishdata"</span><span class="op">)</span></code></pre></div>
+<code class="sourceCode R"><span class="co"># install.packages("drat")</span>
+<span class="fu">drat</span><span class="fu">::</span><span class="fu">addRepo</span><span class="op">(</span><span class="st">"mrsensible"</span><span class="op">)</span>
+<span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html">install.packages</a></span><span class="op">(</span><span class="st">"scottishdata"</span><span class="op">)</span></code></pre></div>
+<p>The developer version can be installed with:</p>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="co">#install.packages("remotes")</span>
+<span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html">install_github</a></span><span class="op">(</span><span class="st">"mrsensible/scottishdata"</span><span class="op">)</span></code></pre></div>
 </div>
 <div id="example" class="section level2">
 <h2 class="hasAnchor">
 <a href="#example" class="anchor"></a>Example</h2>
 <p>This is a basic example which shows you how to solve a common problem:</p>
-<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va">scottishdata</span><span class="op">)</span>
-<span class="co">## basic example code</span></code></pre></div>
+<span class="co">## basic example code</span>
+<span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="va">scotpop19</span><span class="op">)</span>
+<span class="fu"><a href="https://rdrr.io/r/utils/str.html">str</a></span><span class="op">(</span><span class="va">scotpop19</span><span class="op">)</span></code></pre></div>
 </div>
-</div>
+
   </div>
 
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
