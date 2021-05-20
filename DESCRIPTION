@@ -14,4 +14,6 @@ LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Suggests: 
-    MASS
+    MASS,
+    dplyr, 
+    sf
