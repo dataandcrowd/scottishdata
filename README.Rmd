@@ -16,7 +16,7 @@ With drat, you can install and upgrade non-CRAN packages directly from R using t
 
 ```{r drat, eval=FALSE}
 # install.packages("drat")
-drat::addRepo("mrsensible")
+drat::addRepo("dataandcrowd")
 install.packages("scottishdata")
 ```
 
@@ -24,7 +24,7 @@ The developer version can be installed with:
 
 ```{r install, eval=FALSE}
 #install.packages("remotes")
-remotes::install_github("mrsensible/scottishdata")
+remotes::install_github("dataandcrowd/scottishdata")
 ```
 
 
